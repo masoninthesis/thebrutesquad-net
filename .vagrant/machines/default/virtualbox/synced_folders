@@ -1,0 +1,1 @@
+{"nfs":{"/vagrant-nfs-thebrutesquad.net":{"type":"nfs","guestpath":"/vagrant-nfs-thebrutesquad.net","hostpath":"/Users/Mason/Sites/thebrutesquad-net/site","disabled":false,"map_uid":501,"map_gid":20,"nfs_udp":true,"nfs_version":3,"uuid":"511732947"}},"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/Mason/Sites/thebrutesquad-net","disabled":false}}}

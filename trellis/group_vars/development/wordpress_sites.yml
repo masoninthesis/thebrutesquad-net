@@ -1,15 +1,15 @@
 # Documentation: https://github.com/roots/trellis#wordpress-sites
 wordpress_sites:
-  example.com:
+  thebrutesquad.net:
     site_hosts:
-      - example.dev
+      - thebrutesquad.dev
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:roots/bedrock.git
+    repo: git@github.com:roots/masoninthesis/thebrutesquad-net.git
     site_install: true
-    site_title: Example Site
+    site_title: The Brute Squad | Net
     admin_user: admin
     admin_password: admin
-    admin_email: admin@example.dev
+    admin_email: admin@thebrutesquadnet.dev
     multisite:
       enabled: false
       subdomains: false
@@ -20,9 +20,9 @@ wordpress_sites:
       duration: 30s
     env:
       disable_wp_cron: true
-      wp_home: http://example.dev
-      wp_siteurl: http://example.dev/wp
+      wp_home: http://thebrutesquadnet.dev
+      wp_siteurl: http://thebrutesquadnet.dev/wp
       wp_env: development
-      db_name: example_dev
-      db_user: example_dbuser
-      db_password: example_dbpassword
+      db_name: thebrutesquadnet_dev
+      db_user: thebrutesquadnet_dbuser
+      db_password: thebrutesquadnet_dbpassword
