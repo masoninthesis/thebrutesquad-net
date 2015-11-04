@@ -2,9 +2,9 @@
 wordpress_sites:
   thebrutesquad.net:
     site_hosts:
-      - thebrutesquad.dev
+      - thebrutesquadnet.dev
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:roots/masoninthesis/thebrutesquad-net.git
+    repo: git@github.com:roots/bedrock.git
     site_install: true
     site_title: The Brute Squad | Net
     admin_user: admin
