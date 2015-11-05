@@ -1,12 +1,12 @@
 # Documentation: https://github.com/roots/trellis#wordpress-sites
 wordpress_sites:
-  example.com:
+  thebrutesquad.net:
     site_hosts:
-      - staging.example.com
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:roots/bedrock.git
+      - 192.241.219.202
+    local_path: '../site' # path targeting local Bedrock site directory (relative to Ansible root)
+    repo: git@github.com:masoninthesis/thebrutesquad-net
     branch: master
-    # subtree_path: site # relative path to your Bedrock/WP directory in your repo (above) if it is not the root (like the roots-example-project structure)
+    subtree_path: site # relative path to your Bedrock/WP directory in your repo (above) if it is not the root (like the roots-example-project structure)
     multisite:
       enabled: false
       subdomains: false
@@ -17,8 +17,8 @@ wordpress_sites:
       duration: 30s
     env:
       disable_wp_cron: true
-      wp_home: http://staging.example.com
-      wp_siteurl: http://staging.example.com/wp
+      wp_home: http://192.241.219.202
+      wp_siteurl: http://192.241.219.202/wp
       wp_env: staging
       db_name: example_staging
       db_user: example_dbuser
